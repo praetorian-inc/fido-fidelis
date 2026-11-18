@@ -1,0 +1,10 @@
+{
+  "profile": "go2-bench-5.10.176-rt86",
+  "payload": {
+    "type": "default",
+    "path": "/unitree/var/data/fido-fidelis-root.txt"
+  },
+  "drain": 23,
+  "neighbours": [1, 2],
+  "msc": true
+}

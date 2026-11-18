@@ -1,0 +1,4 @@
+#ifndef _CSTDINT_STUB
+#define _CSTDINT_STUB
+#include <stdint.h>
+#endif

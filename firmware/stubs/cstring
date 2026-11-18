@@ -1,0 +1,5 @@
+#ifndef _CSTRING_STUB
+#define _CSTRING_STUB
+#include <string.h>
+namespace std { using ::memcpy; using ::memset; using ::strlen; }
+#endif

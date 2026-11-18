@@ -1,0 +1,4 @@
+#ifndef _CASSERT_STUB
+#define _CASSERT_STUB
+#include <assert.h>
+#endif

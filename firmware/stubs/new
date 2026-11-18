@@ -1,0 +1,5 @@
+#ifndef _NEW_STUB
+#define _NEW_STUB
+#include <cstddef>
+inline void* operator new(std::size_t, void* p) noexcept { return p; }
+#endif

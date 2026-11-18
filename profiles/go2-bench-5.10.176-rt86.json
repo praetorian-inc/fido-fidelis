@@ -1,0 +1,19 @@
+{
+  "name": "go2-bench-5.10.176-rt86",
+  "kernel_release": "5.10.176-rt86+",
+  "symbols": {
+    "core_name_size": "0xffffffc011b82290",
+    "core_pattern": "0xffffffc011b82298",
+    "core_pattern_end": "0xffffffc011b82318"
+  },
+  "layout": {
+    "core_name_size_initial": 128,
+    "core_pattern_size": 128,
+    "kmalloc_256_object_size": 256,
+    "kmalloc_256_freeptr_offset": 128,
+    "uvc_interval_write_offset": 196
+  },
+  "observables": {
+    "core_pattern": "/tmp/core.%e.%p"
+  }
+}

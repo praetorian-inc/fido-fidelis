@@ -1,0 +1,9 @@
+#ifndef _CSTDDEF_STUB
+#define _CSTDDEF_STUB
+#include <stddef.h>
+namespace std {
+    typedef ::size_t size_t;
+    typedef decltype(nullptr) nullptr_t;
+    using ::ptrdiff_t;
+}
+#endif

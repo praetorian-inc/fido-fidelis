@@ -1,0 +1,5 @@
+#ifndef _CSTDLIB_STUB
+#define _CSTDLIB_STUB
+#include <stdlib.h>
+namespace std { using ::malloc; using ::free; using ::abort; }
+#endif

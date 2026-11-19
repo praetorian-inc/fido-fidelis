@@ -108,3 +108,14 @@ If you don't have SSH access, you can run
 to get a list of things necessary to create the profile.
 
 You can copy the format of the existing profile for this.
+
+# Security
+Fido Fidelis is provided for **research purposes only**, only for use on hardware you own.
+
+# License
+
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+
+# About Praetorian
+
+Praetorian is a leading cybersecurity company that helps organizations secure their most critical assets.

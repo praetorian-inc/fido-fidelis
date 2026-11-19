@@ -70,7 +70,9 @@ The default doesn't need any Ethernet, but is mostly useful for people who have 
 
 Don't remove the Pico until the dog is powered off. It doesn't handle that too well.
 
-Fido Fidelis has worked over 95% of the time we tested it. A rare few times it wouldn't run, but you can then just restart the dog and try again.
+Fido Fidelis has worked over 95% of the time we tested it. A rare few times it wouldn't run, but you can then just restart the dog and try again. It is more consistent if an Ethernet cable is plugged in and the other end is configured. 
+
+The firmware relies on guessing how many "drains" to perform when trying to get a free object list in the right state. This is the usual cause of the firmware not firing. You can control how many drains occur by editing the config file (`firmware.json` by default) or passing the `--drain` flag in to `fido.py config` when making a new firmware config file. Try other values out!
 
 ### Rooting
 
